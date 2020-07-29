@@ -39,11 +39,11 @@ def ej1():
     Resta= numero_1 - numero_2
     print('El resultado de restar %.2f y %.2f es %.2f' % (numero_1, numero_2, Resta))
 
-    División= numero_1/numero_2
-    print('El resultado de dividir %.2f y %.2f es %.2f' % (numero_1, numero_2, División))
+    Division= numero_1/numero_2
+    print('El resultado de dividir %.2f y %.2f es %.2f' % (numero_1, numero_2, Division))
 
-    Multiplicación= numero_1*numero_2
-    print('El resultado de multiplicar %.2f y %.2f es %.2f' % (numero_1, numero_2, Multiplicación))
+    Multiplicacion= numero_1*numero_2
+    print('El resultado de multiplicar %.2f y %.2f es %.2f' % (numero_1, numero_2, Multiplicacion))
 
 def ej2():
     # Ejemplos variables de texto
