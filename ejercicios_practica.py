@@ -3,7 +3,7 @@
 Tipos de variables [Python]
 Ejercicios de práctica
 ---------------------------
-Autor: Inove Coding School
+Autor: Johana Rangel
 Version: 1.3
 
 Descripcion:
@@ -11,8 +11,8 @@ Programa creado para que practiquen los conocimietos
 adquiridos durante la semana
 '''
 
-__author__ = "Inove Coding School"
-__email__ = "alumnos@inove.com.ar"
+__author__ = "johana Rangel"
+__email__ = "johanarang@hotmail.com"
 __version__ = "1.3"
 
 
@@ -34,6 +34,23 @@ def ej1():
       ej: La suma entre 4.2 y 6.5 es 10.7
 
     '''
+    numero_1= float(input('Ingrese el primer número real: ')) 
+    numero_2= float(input('Ingrese el segundo número real: ')) 
+
+    suma= numero_1 + numero_2
+    print('La suma entre %.2f y %.2f es %.2f' % (numero_1, numero_2, suma))
+
+    resta= numero_1 - numero_2
+    print('La resta entre %.2f y %.2f es %.2f' % (numero_1, numero_2, resta))
+
+    mutiplicacion= numero_1 * numero_2
+    print('La multiplicación entre %.2f y %.2f es %.2f' % (numero_1, numero_2, mutiplicacion))
+
+    division= numero_1 / numero_2
+    print('La division entre %.2f y %.2f es %.2f' % (numero_1, numero_2, division))
+
+    potencia= numero_1 ** numero_2
+    print('La potencia de %.2f y %.2f es %.2f' % (numero_1, numero_2, potencia))
 
 
 def ej2():
@@ -55,6 +72,13 @@ def ej2():
       entienda de que se está hablando.
 
     '''
+    nombre_completo= str(input('Ingrese nombre y apellido completo: ')) 
+    dni= int(input('Ingrese su numero de DNI: ')) 
+    edad= int(input('Ingrese su edad: '))
+    altura= float(input('Ingrese su altura en metros, separado por punto: '))
+
+    print('Nombre Completo: %s, DNI: %d' %(nombre_completo, dni))
+    print('Nombre Completo: %s, Edad: %d, Altura: %.2f metros' %(nombre_completo, edad, altura))
 
 
 def ej3():
@@ -89,6 +113,15 @@ def ej3():
     Cualquier duda con el método split pueden consultarla por el campus
 
     '''
+    nombre_completoPadre_1= str(input('Ingrese primer nombre y primer apellido del primer padre:'))
+    nombrePadre_1, apellidoPadre_1= nombre_completoPadre_1.split(' ')
+    
+    nombre_completoPadre_2= str(input('Ingrese primer nombre y primer apellido del segundo padre:'))
+    nombrePadre_2, apellidoPadre_2= nombre_completoPadre_2.split(' ')
+    
+    nombre_hijo= str(input('Ingrese nombre del hijo:'))
+    print('El nombre completo del hijo es: %s %s %s,' %(nombre_hijo, apellidoPadre_1, apellidoPadre_2))
+    
 
 
 def ej4():
@@ -123,6 +156,15 @@ def ej4():
 
     Cualquier duda con el método split pueden consultarla por el campus
     '''
+    nombreCompleto_persona_1= str(input('Ingrese primer nombre y primer apellido de la persona 1:'))
+    nombreLista_persona_1= nombreCompleto_persona_1.split(' ')
+   
+    nombreCompleto_persona_2= str(input('Ingrese primer nombre y primer apellido de la persona 2:'))
+    nomPersona_2, apePersona_2= nombreCompleto_persona_2.split(' ')
+    
+    esPariente_persona_1= apePersona_2 in nombreLista_persona_1
+    print(nombreCompleto_persona_2, 'es pariente de', nombreCompleto_persona_1, esPariente_persona_1)
+
 
 
 def ej5():
@@ -150,11 +192,16 @@ def ej5():
     Cualquier duda con estos métodos pueden consultarla por el campus
     '''
 
+    nombreCompleto= str(input('Ingrese su nombe completo:'))
+    print(nombreCompleto.lower())
+    print(nombreCompleto.upper())
+    print(nombreCompleto.capitalize())
+
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     ej1()
-    # ej2()
-    # ej3()
-    # ej4()
-    # ej5()
+    ej2()
+    ej3()
+    ej4()
+    ej5()
