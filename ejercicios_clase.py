@@ -28,6 +28,7 @@ def ej1():
 
     # Alumno: Imprima en pantalla los dos números decimales solicitados
     #print('Valores decimales ingresados son, primer: ', numero_1, ' y segundo: ', numero_2)
+    print('Los valores decimales ingresados son, primer: ', numero_1, 'y segundo: ', numero_2)
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
