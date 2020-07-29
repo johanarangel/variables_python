@@ -11,7 +11,7 @@ Programa creado para poner a prueba los conocimientos
 adquiridos durante la clase
 '''
 
-__author__ = "Johana RAngel"
+__author__ = "Johana Rangel"
 __email__ = "johanarang@hotmail.com"
 __version__ = "1.1"
 
