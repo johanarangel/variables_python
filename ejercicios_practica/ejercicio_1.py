@@ -12,6 +12,10 @@
 numero_1 = 5
 numero_2 = 7
 
+operacion = numero_1 + numero_2
+
+print("El resultado de la suma es", operacion)
+
 # Realizar la suma de las dos variables
 # numero_1 y numero_2
 # Almacenar el valor de la suma en una variable
