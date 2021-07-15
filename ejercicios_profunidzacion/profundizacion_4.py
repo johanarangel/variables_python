@@ -4,7 +4,7 @@
 # Autor: Inove Coding School
 # Version: 2.0
 
-# NOTA: 
+# NOTA:
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
 # Están pensados para aquellos con conocimientos previo o que dispongan
 # de mucho más tiempo para abordar estos temas por su cuenta.
@@ -45,3 +45,18 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print("Ingrese nombre completo del primer padre")
+padre_1 = str(input())
+
+print("Ingrese nombre completo del segundo padre")
+padre_2 = str(input())
+
+print("Ingrese nombre del Hijo")
+hijo_nombre = str(input())
+
+apellido_1 = padre_1.split()
+
+apellido_2 = padre_2.split()
+
+print(hijo_nombre + "", apellido_1[1] + "", apellido_2[1])
