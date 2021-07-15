@@ -60,3 +60,5 @@ apellido_1 = padre_1.split()
 apellido_2 = padre_2.split()
 
 print(hijo_nombre + "", apellido_1[1] + "", apellido_2[1])
+
+# Aclaracion: no pude poner como seria si los padres tuvieran 2 nombres o 2 apellidos
