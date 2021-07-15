@@ -17,13 +17,13 @@ print('Ingrese palabra 2:')
 palabra_2 = str(input())
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
-palabra_1_acronimo = palabra_1[:3]
+letras_palabra_1 = palabra_1[:3]
 
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
-palabra_2_acronimo = palabra_2[:2]
+letras_palabra_2 = palabra_2[:2]
 
 # Formar una nueva palabra con los recortes solicitados
-palabra_nueva = palabra_1_acronimo + palabra_2_acronimo
+palabra_nueva = letras_palabra_1 + letras_palabra_2
 
 # Imprima en pantalla los resultados
 print(palabra_nueva)
