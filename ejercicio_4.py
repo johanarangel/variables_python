@@ -23,8 +23,9 @@ palabra_3 = str(input())    # López
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
-palabra_1="Miguel"
-palabra_2="Angel"
-palabra_3="López"
+palabra_1="Miguel"  # Al darle valores a las variables palabra_1, palabra_2, palabra_2 éstas reemplazan a los valores que entran por consola
+palabra_2="Angel"   # Al darle valores a las variables palabra_1, palabra_2, palabra_2 éstas reemplazan a los valores que entran por consola
+palabra_3="López"   #Estas tres líneas 26, 27 y 28 deben comentarse o borrarse.
 palabra_nueva=(palabra_1[0]+palabra_2[0]+palabra_3[0])
 print(palabra_nueva)        # MAL
+
