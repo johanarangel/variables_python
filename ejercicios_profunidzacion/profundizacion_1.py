@@ -31,3 +31,13 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+a = float(input("ingrese número 1:"))
+b = float(input("ingrese número 2:"))
+s = (a + b)
+r = (a - b)
+m = (a * b)
+d = (a / b)
+print("La suma de",a,"mas",b,"da como resultado",s)
+print("La resta de",a,"menos",b,"da como resultado",r)
+print("La multiplicación de",a,"por",b,"da como resultado",m)
+print("La división de",a,"por",b,"da como resultado",d)

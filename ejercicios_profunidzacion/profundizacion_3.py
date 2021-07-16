@@ -38,3 +38,8 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print("Por favor, escriba su nombre completo:")
+nom_completo = input()
+print(nom_completo.lower())
+print(nom_completo.upper())
+print(nom_completo.capitalize())
