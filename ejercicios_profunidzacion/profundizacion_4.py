@@ -55,10 +55,11 @@ padre_2 = str(input())
 print("Ingrese nombre del Hijo")
 hijo_nombre = str(input())
 
-apellido_1 = padre_1.split()
-
+apellido_1 = padre_1.split() 
 apellido_2 = padre_2.split()
 
 print(hijo_nombre + "", apellido_1[1] + "", apellido_2[1])
-
+-----------------------------------------
+# Te faltó un pasito nada más, por ejemplo: nombre_1, apellido_1 = padre_1.split() mismo caso para padre_2 y en el print() agregas los apellidos de ambos y listo.
+            
 # Aclaracion: no pude poner como seria si los padres tuvieran 2 nombres o 2 apellidos
